@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+:root {
+    --primary: #fb923c;
+    --secondary: #fed7aa;
+    --txt-clr: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    flex: 0 1 auto;
+}
+
+header h1 {
+    color: white;
+    font-size: 4.8rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+main figure {
+    width: 450px;
+}
+
+figure img {
+    width: inherit;
+    height: auto;
+}
+
+figure a {
+    font-size: 1.8rem;
+}
+
+.item-list {
+    width: 300px;
+    padding: 30px;
+}
+
+.item-list h2 {
+    font-size: 3.2rem;
+}
+
+.item-list li {
+    font-size: 2.2rem;
+}
+
+.steps {
+    width: 800px;
+}
+
+.steps h2 {
+    font-size: 3.2rem;
+}
+
+.steps h3 {
+    font-size: 2.8rem;
+}
+
+.steps p {
+    font-size: 2rem;
+}
+
+.home-link {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 0 1 auto;
+}
+
+.home-link a {
+    padding: 5px;
+    color: white;
+    background-color: var(--primary);
+    font-size: 2.8rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
